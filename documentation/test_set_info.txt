@@ -1,0 +1,33 @@
+Hindi-Mundari Test Set
+======================
+
+Source:
+Combined AdiBhashaa-Mundari + Karya datasets
+
+Total unique pairs before split:
+30225
+
+Train pairs:
+24180
+
+Development pairs:
+3022
+
+Test pairs:
+3023
+
+Split:
+80% Train / 10% Dev / 10% Test
+
+Random seed:
+42
+
+Test file:
+data/test/mundari/test.csv
+
+Status:
+FROZEN
+
+Rule:
+The test set must not be used for training or hyperparameter tuning.
+It will be used only for final Hindi-Mundari and Mundari-Hindi evaluation.

@@ -1,0 +1,25 @@
+Hindi-Mundari Tokenizer Configuration
+=====================================
+
+Tokenizer: SentencePiece
+Model: tokenizer/hindi_mundari.model
+Vocabulary size: 8000
+Model type: BPE
+Character coverage: 1.0
+
+Special token IDs:
+UNK = 0
+BOS = 1
+EOS = 2
+PAD = 3
+
+Maximum sequence length: 80
+Training corpus: tokenizer/train_text.txt
+Training sentences: 48360
+Source: Hindi-Mundari training split only
+Languages: Hindi, Mundari
+Script: Devanagari
+
+Status: FROZEN
+
+Rule: The tokenizer model and vocabulary must remain unchanged after model training begins.

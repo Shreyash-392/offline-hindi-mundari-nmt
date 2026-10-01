@@ -1,0 +1,4 @@
+dataset,language_pair,purpose,script,approx_pairs,license,source,notes
+AdiBhashaa,English-Santali,reference_only,Devanagari-Ol Chiki,20001,CC BY-NC-SA 4.0,Hugging Face misniitdelhi/AdiBhasha,Downloaded santali-train.csv contains English and Santali columns; not suitable as Hindi-Santali training data
+AdiBhashaa-Mundari,Hindi-Mundari,training_candidate,Devanagari-Devanagari,20000,CC BY-NC-SA 4.0,Hugging Face misniitdelhi/AdiBhasha,Verified local file contains Hindi and Mundari columns; candidate for Hindi-Mundari baseline after preprocessing
+Karya,Hindi-Mundari,training_candidate,Devanagari-Devanagari,17826,Attribution-NonCommercial-ShareAlike-FreeSoftware (BY-NC-SA-FS) 1.0,GitHub karya-inc/dataset-hindi-mundari-translation,README reports 17826 pairs; local translation-hi-unr.tsv verified 10273 valid 2-column pairs, 9 malformed rows, 5 exact duplicate pairs; UTF-8 TSV with no header
